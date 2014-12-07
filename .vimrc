@@ -43,3 +43,4 @@ set ignorecase
 " Nerd Tree
 "=============================
 "autocmd vimenter * NERDTree
+"autocmd BufEnter * NERDTreeMirror
