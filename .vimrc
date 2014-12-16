@@ -1,48 +1,79 @@
 "=============================
-"" Vundle Config
+" Vundle Config
 "=============================
-"set nocompatible              " be iMproved, required
-"filetype off                  " required
-"
-"" set the runtime path to include Vundle and initialize
+set nocompatible
+filetype off
+
+" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-" "call vundle#begin('~/some/path/here')
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
 "
-" " let Vundle manage Vundle, required
-" Plugin 'gmarik/Vundle.vim'
-" "
-" " Plugins
-" "
-" Plugin 'tpope/vim-fugitive'
-" Plugin 'airblade/vim-gitgutter'
+" Plugins
 "
-" " All of your Plugins must be added before the following line
-" call vundle#end()            " required
-" filetype plugin indent on    " required
-" " To ignore plugin indent changes, instead use:
-" "filetype plugin on
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'Bling/vim-airline'
+
+
+
 "
+" Themes
 "
-" "=============================
-" " Configuration
-" "=============================
-" set t_Co=256
-" syntax on
-" set number
-" set virtualedit=all
-" colorscheme railscasts
-" set showtabline=2
-" set background=dark
-" set mouse=a
-" set tabstop=2
-" set cursorline
-" "=============================
-" " Status line.
-" "=============================
-" set laststatus=2
-" set statusline=%f\
-" set statusline+=%{fugitive#statusline()}
-" set statusline+=%=
-" set statusline+=Line:%l%L
+Plugin 'tomasr/molokai'
+
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+filetype plugin indent on 
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+
+
+"=============================
+" Configuration
+"=============================
+set t_Co=256
+syntax on
+set number
+set virtualedit=all           
+set title
+set visualbell
+set noswapfile
+set cursorline
+set mouse=a
+set background=dark
+set ch=2
+set backspace=2
+set scrolloff=4
+set textwidth=80
+
+"
+" Color Schemes
+"
+"colorscheme railscasts
+colorscheme molokai
+
+"
+" Tabs
+"
+set showtabline=2
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent
+
+"=============================
+" Status line.
+"=============================
+set laststatus=2
+set statusline=%f\
+set statusline+=%{fugitive#statusline()}
+set statusline+=%=
+set statusline+=Line:%l-%L\ Buf:#%n
+
