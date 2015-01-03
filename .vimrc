@@ -18,7 +18,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Bling/vim-airline'
-
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'scrooloose/syntastic'
 
 
 "
@@ -55,8 +56,8 @@ set textwidth=80
 "
 " Color Schemes
 "
-"colorscheme railscasts
-colorscheme molokai
+colorscheme railscasts
+"colorscheme molokai
 
 "
 " Tabs
