@@ -83,3 +83,6 @@ set statusline+=Line:%l-%L\ Buf:#%n
 "=============================
 " Airline Statusline
 "=============================
+let g:airline_powerline_fonts = 1
+
+
