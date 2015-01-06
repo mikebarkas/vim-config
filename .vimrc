@@ -52,6 +52,7 @@ set ch=2
 set backspace=2
 set scrolloff=4
 set textwidth=80
+let g:netrw_liststyle=3
 
 "
 " Color Schemes
