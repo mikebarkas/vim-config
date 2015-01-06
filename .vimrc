@@ -79,3 +79,7 @@ set statusline+=%{fugitive#statusline()}
 set statusline+=%=
 set statusline+=Line:%l-%L\ Buf:#%n
 
+
+"=============================
+" Airline Statusline
+"=============================
