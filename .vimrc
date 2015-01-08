@@ -86,3 +86,8 @@ set statusline+=Line:%l-%L\ Buf:#%n
 let g:airline_powerline_fonts = 1
 
 
+"=============================
+" Tmux extension
+"=============================
+let g:airline#extension#tmux#enabled = 0
+
