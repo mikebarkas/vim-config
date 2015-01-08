@@ -57,8 +57,8 @@ let g:netrw_liststyle=3
 "
 " Color Schemes
 "
-colorscheme railscasts
-"colorscheme molokai
+"colorscheme railscasts
+colorscheme molokai
 
 "
 " Tabs
