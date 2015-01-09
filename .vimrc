@@ -91,3 +91,11 @@ let g:airline_powerline_fonts = 1
 "=============================
 let g:airline#extension#tmux#enabled = 0
 
+
+
+"=============================
+" Templates
+"=============================
+" Simple HTML starter.
+autocmd BufNewFile simple.html 0r ~/.vim/templates/html/simple.html
+
