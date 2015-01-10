@@ -96,6 +96,6 @@ let g:airline#extension#tmux#enabled = 0
 "=============================
 " Templates
 "=============================
-" Simple HTML starter.
+" HTML
 autocmd BufNewFile simple.html 0r ~/.vim/templates/html/simple.html
 
