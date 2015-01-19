@@ -101,15 +101,16 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
-hi Comment         guifg=#7E8E91
+hi Comment         guifg=#3f3f3f guibg=NONE   gui=italic
 hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FD971F               gui=none
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#232526
-hi LineNr          guifg=#465457 guibg=#232526
+hi LineNr          guifg=#999999 guibg=NONE
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
-
+" ============ work above =================================
+"
 "
 " Support for 256-color terminal
 "
