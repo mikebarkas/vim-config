@@ -40,7 +40,7 @@ hi Float           guifg=#AE81FF
 hi FoldColumn      guifg=#465457 guibg=#000000
 hi Folded          guifg=#465457 guibg=#000000
 hi Function        guifg=#A6E22E
-hi Identifier      guifg=#FD971F
+hi Identifier      guifg=#dadada guibg=NONE ctermfg=253 ctermbg=NONE cterm=NONE
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
@@ -61,7 +61,7 @@ hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
 hi PreCondit       guifg=#A6E22E               gui=bold
-hi PreProc         guifg=#A6E22E
+hi PreProc         guifg=#bcbcbc guibg=NONE ctermfg=250 ctermbg=NONE
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792
@@ -100,13 +100,13 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
+hi Normal          guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE
 hi Comment         guifg=#585858 guibg=NONE gui=italic ctermfg=240 ctermbg=NONE
 hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FD971F               gui=none
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#232526
-hi LineNr          guifg=#121212 guibg=#444444 ctermfg=237 ctermbg=233
+hi LineNr          guifg=#3a3a3a guibg=#121212 ctermfg=237 ctermbg=233
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 " ============ work above =================================
