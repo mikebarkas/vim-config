@@ -60,7 +60,7 @@ hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
-hi PreCondit       guifg=#A6E22E               gui=bold
+hi PreCondit       ctermfg=090
 hi PreProc         ctermfg=090 ctermbg=NONE
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
