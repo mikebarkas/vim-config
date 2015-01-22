@@ -52,7 +52,7 @@ hi SpecialKey      guifg=#66D9EF               gui=italic
 hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
-hi Operator        ctermfg=192 ctermbg=NONE
+hi Operator        ctermfg=253 ctermbg=NONE cterm=bold
 
 " complete menu
 hi Pmenu           guifg=#66D9EF guibg=#000000
