@@ -26,7 +26,7 @@ hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi iCursor         guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          ctermfg=075  ctermbg=NONE
-hi Delimiter       guifg=#8F8F8F
+hi Delimiter       ctermfg=253  cterm=bold
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
