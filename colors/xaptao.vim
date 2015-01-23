@@ -19,7 +19,7 @@ let g:colors_name="xaptao"
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
-hi String          guifg=#E6DB74
+hi String          ctermfg=144 ctermbg=NONE
 hi Conditional     guifg=#F92672               gui=bold
 hi Constant        ctermfg=052 ctermbg=NONE cterm=NONE
 hi Cursor          guifg=#000000 guibg=#F8F8F0
