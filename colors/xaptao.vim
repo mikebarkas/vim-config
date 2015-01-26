@@ -101,12 +101,12 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          ctermfg=253   ctermbg=NONE
-hi Comment         guifg=#585858 guibg=NONE gui=italic ctermfg=240 ctermbg=NONE
+hi Comment         ctermfg=240 ctermbg=NONE
 hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FD971F               gui=none
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#232526
-hi LineNr          ctermfg=240 ctermbg=234
+hi LineNr          ctermfg=240 ctermbg=235
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 " ============ work above =================================
