@@ -47,8 +47,8 @@ set autoindent
 " Search and Replace
 " ==============================================================================
 set incsearch                          " Show match as search is typed.
-set ignorecase
-
+set ignorecase                         " Isensitive case search.
+set hlsearch                           " Highlight search patterns.
 
 " =============================================================================
 " Color Schemes
