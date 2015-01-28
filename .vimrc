@@ -10,8 +10,8 @@
 " ==============================================================================
 " General Settings
 " ==============================================================================
-set t_Co=256
-syntax on
+set t_Co=256                           " Set terminal color to 256.
+syntax on                              " Syntax highlighting.
 set number
 set virtualedit=all
 set title
@@ -25,7 +25,7 @@ set backspace=2
 set scrolloff=4
 set textwidth=80
 let g:netrw_liststyle=3
-
+set spelllang=en_us                    " US spell check.
 
 " =============================================================================
 " Tabs
