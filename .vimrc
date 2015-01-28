@@ -12,7 +12,7 @@
 " ==============================================================================
 set t_Co=256                           " Set terminal color to 256.
 syntax on                              " Syntax highlighting.
-set number
+set number                             " Line numbering.
 set virtualedit=all
 set title
 set visualbell
@@ -83,20 +83,16 @@ Plugin 'Bling/vim-airline'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'scrooloose/syntastic'
 
-
 "
 " Themes
 "
 Plugin 'tomasr/molokai'
-
 
 " All of your Plugins must be added before the following line
 call vundle#end()
 filetype plugin indent on 
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
-
-
 
 
 " ==============================================================================
@@ -118,7 +114,7 @@ let g:airline_powerline_fonts = 1
 " ==============================================================================
 " Tmux extension
 " ==============================================================================
-let g:airline#extension#tmux#enabled = 0
+let g:airline#extension#tmux#enabled = 0  " Tmux to use Airline statusline.
 
 
 
