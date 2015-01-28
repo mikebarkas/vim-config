@@ -49,6 +49,8 @@ set autoindent
 set incsearch                          " Show match as search is typed.
 set ignorecase                         " Isensitive case search.
 set hlsearch                           " Highlight search patterns.
+set wrapscan                           " Wrap to top when searching.
+
 
 " =============================================================================
 " Color Schemes
