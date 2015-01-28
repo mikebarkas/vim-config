@@ -11,6 +11,22 @@
 "===============================================================================
 " General Settings
 "===============================================================================
+set t_Co=256
+syntax on
+set number
+set virtualedit=all
+set title
+set visualbell
+set noswapfile
+set cursorline
+set mouse=a
+set background=dark
+set ch=2
+set backspace=2
+set scrolloff=4
+set textwidth=80
+let g:netrw_liststyle=3
+set ignorecase
 
 
 
@@ -56,22 +72,6 @@ filetype plugin indent on
 "=============================
 " Configuration
 "=============================
-set t_Co=256
-syntax on
-set number
-set virtualedit=all           
-set title
-set visualbell
-set noswapfile
-set cursorline
-set mouse=a
-set background=dark
-set ch=2
-set backspace=2
-set scrolloff=4
-set textwidth=80
-let g:netrw_liststyle=3
-set ignorecase
 "
 " Color Schemes
 "
