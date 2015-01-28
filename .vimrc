@@ -13,7 +13,7 @@
 set t_Co=256                           " Set terminal color to 256.
 syntax on                              " Syntax highlighting.
 set number                             " Line numbering.
-set virtualedit=all
+set virtualedit=all                    " Allow virtual editing.
 set title
 set visualbell
 set noswapfile
