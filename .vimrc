@@ -14,9 +14,10 @@ set t_Co=256                           " Set terminal color to 256.
 syntax on                              " Syntax highlighting.
 set number                             " Line numbering.
 set virtualedit=all                    " Allow virtual editing.
-set title
-set visualbell
-set noswapfile
+set title                              " Set title.
+set visualbell                         " Disable beep.
+set t_vb=                              " Set screen flash to 0.
+set noswapfile                         " Do not create a swapfile.
 set cursorline
 set mouse=a
 set background=dark
