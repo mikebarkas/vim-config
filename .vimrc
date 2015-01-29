@@ -124,4 +124,4 @@ let g:airline#extension#tmux#enabled = 0  " Tmux to use Airline statusline.
 " ==============================================================================
 " HTML
 autocmd BufNewFile simple.html 0r ~/.vim/templates/html/simple.html
-
+autocmd BufNewFile main.c 0r ~/.vim/templates/c/main.c
