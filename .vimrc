@@ -18,14 +18,14 @@ set title                              " Set title.
 set visualbell                         " Disable beep.
 set t_vb=                              " Set screen flash to 0.
 set noswapfile                         " Do not create a swapfile.
-set cursorline
-set mouse=a
-set background=dark
+set cursorline                         " Display cursor line.
+set mouse=a                            " Mouse availablility.
+set background=dark                    " Set color scope.
 set ch=2
 set backspace=2
-set scrolloff=4
-set textwidth=80
-let g:netrw_liststyle=3
+set scrolloff=4                        " Scroll offset.
+set textwidth=80                       " Width reminder.
+let g:netrw_liststyle=3                " Directory layout style.
 set spelllang=en_us                    " US spell check.
 
 " =============================================================================
