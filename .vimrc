@@ -25,7 +25,6 @@ set ch=2
 set backspace=2
 set scrolloff=4                        " Scroll offset.
 set textwidth=80                       " Width reminder.
-let g:netrw_liststyle=3                " Directory layout style.
 set spelllang=en_us                    " US spell check.
 
 " =============================================================================
@@ -37,6 +36,12 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set autoindent
+
+
+" ==============================================================================
+" Directories
+" ==============================================================================
+let g:netrw_liststyle=3                " Directory layout style.
 
 
 " ==============================================================================
