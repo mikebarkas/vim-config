@@ -42,6 +42,7 @@ set autoindent
 " Directories
 " ==============================================================================
 let g:netrw_liststyle=3                " Directory layout style.
+let g:netrw_preview=1                  " Preview vertical split.
 
 
 " ==============================================================================
