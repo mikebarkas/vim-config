@@ -28,7 +28,7 @@ set textwidth=80                       " Width reminder.
 set spelllang=en_us                    " US spell check.
 
 " =============================================================================
-" Tabs
+" Tabs and Panes
 " =============================================================================
 set showtabline=2
 set tabstop=2
@@ -36,6 +36,8 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set autoindent
+set splitright
+set splitbelow
 
 
 " ==============================================================================
