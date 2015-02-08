@@ -61,14 +61,6 @@ set hlsearch                           " Highlight search patterns.
 set wrapscan                           " Wrap to top when searching.
 
 
-" =============================================================================
-" Color Schemes
-" =============================================================================
-"colorscheme xaptao
-"colorscheme railscasts
-colorscheme molokai
-
-
 " ==============================================================================
 " Vundle Config
 " ==============================================================================
@@ -102,6 +94,14 @@ call vundle#end()
 filetype plugin indent on 
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
+
+
+" =============================================================================
+" Color Schemes
+" =============================================================================
+"colorscheme xaptao
+"colorscheme railscasts
+colorscheme molokai
 
 
 " ==============================================================================
