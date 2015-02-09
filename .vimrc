@@ -27,6 +27,8 @@ set scrolloff=4                        " Scroll offset.
 set textwidth=80                       " Width reminder.
 set spelllang=en_us                    " US spell check.
 set timeoutlen=1000                    " Timeout for mapping delay.
+set ttimeoutlen=50                     " Timeout for key code sequence.
+
 
 " =============================================================================
 " Tabs and Panes
