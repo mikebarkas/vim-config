@@ -26,6 +26,7 @@ set backspace=2
 set scrolloff=4                        " Scroll offset.
 set textwidth=80                       " Width reminder.
 set spelllang=en_us                    " US spell check.
+set timeoutlen=1000                    " Timeout for mapping delay.
 
 " =============================================================================
 " Tabs and Panes
