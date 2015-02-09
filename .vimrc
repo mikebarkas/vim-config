@@ -32,9 +32,9 @@ set spelllang=en_us                    " US spell check.
 " =============================================================================
 set showtabline=2
 set tabstop=2
-set shiftwidth=2
+set shiftwidth=2                       " Characters for indentation.
 set softtabstop=2
-set expandtab
+set expandtab                          " Insert spaces not tabs.
 set autoindent
 set splitright
 set splitbelow
