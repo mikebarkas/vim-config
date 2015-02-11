@@ -134,13 +134,13 @@ set statusline+=Line:%l-%L\ Buf:#%n
 " Airline Statusline
 " ==============================================================================
 let g:airline_powerline_fonts = 1
+let g:airline#extension#tabline#enabled = 1
 
 
 " ==============================================================================
 " Tmux extension
 " ==============================================================================
 let g:airline#extension#tmux#enabled = 0  " Tmux to use Airline statusline.
-
 
 
 " ==============================================================================
