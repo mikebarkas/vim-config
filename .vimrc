@@ -67,7 +67,7 @@ set wrapscan                           " Wrap to top when searching.
 " ==============================================================================
 " Auto complete.
 " ==============================================================================
-
+set complete=.,w,b,t                   " Completion location priority.
 
 
 
